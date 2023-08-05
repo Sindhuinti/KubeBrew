@@ -1,4 +1,6 @@
-import inquirer from 'inquirer';
+const inquirer = require('inquirer');
+const Docker = require('./docker');
+const Kubernetes = require('./kubernetes');
 
 async function Tools() {
     const answers = await inquirer.prompt({
@@ -8,5 +10,16 @@ async function Tools() {
         choices: ['Docker', 'Kubernetes', 'Exit'],
     });
 
-    return handleAnswer(answers.question_1 === 'Dec 4th, 1995');
+    if (answers.Tools == 'Exit') {
+        process.exit(1);
+    }
+
+    if (answers.Tools == 'Docker') {
+        Docker();
+    }
+    if (answers.Tools == 'Kubernetes') {
+        Kubernetes();
+    }
 }
+
+module.exports = Tools;

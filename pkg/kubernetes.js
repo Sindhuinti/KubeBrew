@@ -24,7 +24,8 @@ async function Kubernetes() {
         '../helper/kubernetes/',
         kubeFiles.get(answers.Kubernetes)
     );
-    createFile(inputFile, answers.Kubernetes+'.yml');
+
+    createFile(inputFile, answers.Kubernetes + '.yml');
 }
 
 module.exports = Kubernetes;
