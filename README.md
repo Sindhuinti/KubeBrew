@@ -1,4 +1,4 @@
 # KubeBrew
 <div align="center">
-<img src="./logo.png" width="300px">
+<img src="./logo.png" width="200px">
 </div>
