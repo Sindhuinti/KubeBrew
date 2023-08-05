@@ -1,0 +1,16 @@
+{
+  "name": "kubebrew",
+  "version": "1.0.0",
+  "description": "CLI tool to manage your config files!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sindhu Inti",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^8.2.6"
+  }
+}
