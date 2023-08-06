@@ -25,7 +25,7 @@ async function Docker() {
         '../helper/docker/',
         dockerFiles.get(answers.Docker)
     );
-    createFile(inputFile, 'DockerFile');
+    createFile(inputFile, 'Dockerfile');
 }
 
 module.exports = Docker;
