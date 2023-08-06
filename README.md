@@ -5,7 +5,7 @@
 
 KubeBrew is a command line tool that allows you to create and manage your DevOps configuration files. It's easy to create Dockerfiles and Kubernetes configuration files without any extra effort. 
 
-To install the KubeBrew CLI, use the command `npm kubebrew`. It will automatically installed in your system.
+To install the KubeBrew CLI, use the command `npm i -g kubebrew`. It will automatically installed in your system.
 
 Once installed, you can use the KubeBrew CLI command.
 
@@ -21,6 +21,7 @@ Once installed, you can use the KubeBrew CLI command.
 
 ## How to use
 ```bash
+kubebrew
 ? Please select the DevOps platform (Use arrow keys)
 > Docker
   Kubernetes
@@ -28,6 +29,7 @@ Once installed, you can use the KubeBrew CLI command.
 ```
 ### Select platform
 ```bash
+kubebrew
 ? Please select the DevOps platform Docker
 ? Please select the language (Use arrow keys)
 > Go
@@ -38,6 +40,7 @@ Once installed, you can use the KubeBrew CLI command.
 ```
 
 ```bash
+kubebrew
 ? Please select the DevOps platform Kubernetes
 ? Please select the configuartion file type (Use arrow keys)
 > Pod
