@@ -1,8 +1,13 @@
 {
     "name": "kubebrew",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "description": "CLI tool to manage your config files!",
     "main": "index.js",
+    "keywords": [
+        "docker",
+        "kubernetes",
+        "DevOps",
+        "cli"],
     "scripts": {
         "start": "node .",
         "test": "jest"

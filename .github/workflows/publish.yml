@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - '**.js'
-      - '**.json'
+      - 'package*.json'
   workflow_run:
     workflows:
       - "Testing 🧪"
@@ -17,6 +17,7 @@ on:
 jobs:
     publish:
         runs-on: ubuntu-latest
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
         steps:
             - name: checkout
               uses: actions/checkout@v2
