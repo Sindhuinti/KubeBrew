@@ -23,6 +23,8 @@ Once installed, you can use the KubeBrew CLI command.
 - Options based CLI tool.
 - No need to remember flags and arguments.
 
+## Get started
+
 ## How to use
 ```bash
 kubebrew
