@@ -4,7 +4,9 @@
 </div>
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/sindhuinti/kubebrew) ![GitHub last commit](https://img.shields.io/github/last-commit/sindhuinti/kubebrew) [![Version](https://img.shields.io/npm/v/kubebrew.svg)](https://npmjs.org/package/kubebrew)
+![GitHub](https://img.shields.io/github/license/sindhuinti/kubebrew) ![GitHub last commit](https://img.shields.io/github/last-commit/sindhuinti/kubebrew) 
+[![Version](https://img.shields.io/npm/v/kubebrew.svg)](https://npmjs.org/package/kubebrew)
+
 
 </div>
 KubeBrew is a command line tool that allows you to create and manage your DevOps configuration files. It's easy to create Dockerfiles and Kubernetes configuration files without any extra effort. 
@@ -22,10 +24,15 @@ Once installed, you can use the KubeBrew CLI command.
 - npm package
 - Options based CLI tool.
 - No need to remember flags and arguments.
+- More comming soon..
 
 ## Get started 
 
-## How to use
+- Install [nodejs](https://nodejs.org/en) on your system.
+- Install latest version of `npm` by the command `npm i -g npm`.
+- Install [KubeBrew](https://www.npmjs.com/package/kubebrew) by using the command `npm i -g kubebrew`.
+
+## Usage 
 ```bash
 kubebrew
 ? Please select the DevOps platform (Use arrow keys)
@@ -44,6 +51,7 @@ kubebrew
   Python
   Exit
 ```
+Eg `GO` option will create a `Dockerfile` for golang
 
 ```bash
 kubebrew
@@ -54,9 +62,14 @@ kubebrew
   Service
   Exit
 ```
+Eg `Pod` option will create `Pod.yml` configuartion file
 
-## License
+## 📜 License
 This project is licensed under the Apache-2.0 license - see the [LICENSE](https://github.com/Sindhuinti/kubebrew/blob/main/LICENSE) file for details.
+
+## 🛡 Security
+
+If you discover a security vulnerability within this project, please check the [SECURITY](SECURITY.md) for more information.
 
 ## Support
 
