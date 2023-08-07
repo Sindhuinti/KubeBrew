@@ -3,10 +3,16 @@ name: "Testing 🧪"
 on:
   push:
     branches:
-      - main  
+      - main
+    paths:
+      - '**.js'
+      - '**.json'  
   pull_request:
     branches:
-      - main  
+      - main
+    paths:
+      - '**.js'
+      - '**.json'  
 
 jobs:
   test:
