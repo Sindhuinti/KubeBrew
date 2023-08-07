@@ -1,17 +1,17 @@
 name: "🚀 publish npm"
 
 on:
-  workflow_run:
-    workflows:
-      - "Testing 🧪"
-    types:
-      - completed
   push:
     branches:
       - main
     paths:
       - '**.js'
       - '**.json'
+  workflow_run:
+    workflows:
+      - "Testing 🧪"
+    types:
+      - completed
     
 
 jobs:
