@@ -4,8 +4,10 @@
 </div>
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/sindhuinti/kubebrew) ![GitHub last commit](https://img.shields.io/github/last-commit/sindhuinti/kubebrew) 
+![GitHub](https://img.shields.io/github/license/sindhuinti/kubebrew) 
 [![Version](https://img.shields.io/npm/v/kubebrew.svg)](https://npmjs.org/package/kubebrew)
+[![Test 🧪](https://github.com/Sindhuinti/KubeBrew/actions/workflows/test.yml/badge.svg)](https://github.com/Sindhuinti/KubeBrew/actions/workflows/test.yml)
+[![npm Package](https://github.com/Sindhuinti/KubeBrew/actions/workflows/publish.yml/badge.svg)](https://github.com/Sindhuinti/KubeBrew/actions/workflows/publish.yml)
 
 
 </div>
